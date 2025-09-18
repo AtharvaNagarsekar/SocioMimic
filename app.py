@@ -15,7 +15,7 @@ user_topic = st.sidebar.text_area("Enter a topic or post for the agents to discu
 num_agents = st.sidebar.slider("Number of AI Agents:", min_value=5, max_value=100, value=25)
 
 st.sidebar.subheader("API Credentials")
-api_key = st.sidebar.text_input("Google AI API Key", type="password", value="AIzaSyDZnQS_12pEsks0Q1qYFToCZmn8UNqLUSA")
+api_key = st.sidebar.text_input("Google AI API Key", type="password", value="Enter your API key here")
 model_name = st.sidebar.text_input("Gemini Model Name", value="gemini-1.5-flash")
 
 
